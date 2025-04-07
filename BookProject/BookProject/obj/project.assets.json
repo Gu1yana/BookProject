@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\l novbe\\.nuget\\packages\\": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\l novbe\\Desktop\\BookProject\\BookProject\\BookProject\\BookProject.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\BookProject\\BookProject\\BookProject\\BookProject.csproj",
       "projectName": "BookProject",
-      "projectPath": "C:\\Users\\l novbe\\Desktop\\BookProject\\BookProject\\BookProject\\BookProject.csproj",
-      "packagesPath": "C:\\Users\\l novbe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\l novbe\\Desktop\\BookProject\\BookProject\\BookProject\\obj\\",
+      "projectPath": "C:\\Users\\user\\Desktop\\BookProject\\BookProject\\BookProject\\BookProject.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\BookProject\\BookProject\\BookProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\l novbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -40,6 +40,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -61,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

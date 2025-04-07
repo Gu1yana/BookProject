@@ -12,3 +12,18 @@ C:\Users\l novbe\Desktop\BookProject\BookProject\BookProject\obj\Debug\net8.0\re
 C:\Users\l novbe\Desktop\BookProject\BookProject\BookProject\obj\Debug\net8.0\BookProject.pdb
 C:\Users\l novbe\Desktop\BookProject\BookProject\BookProject\obj\Debug\net8.0\BookProject.genruntimeconfig.cache
 C:\Users\l novbe\Desktop\BookProject\BookProject\BookProject\obj\Debug\net8.0\ref\BookProject.dll
+C:\Users\user\Desktop\BookProject\BookProject\BookProject\bin\Debug\net8.0\BookProject.exe
+C:\Users\user\Desktop\BookProject\BookProject\BookProject\bin\Debug\net8.0\BookProject.deps.json
+C:\Users\user\Desktop\BookProject\BookProject\BookProject\bin\Debug\net8.0\BookProject.runtimeconfig.json
+C:\Users\user\Desktop\BookProject\BookProject\BookProject\bin\Debug\net8.0\BookProject.dll
+C:\Users\user\Desktop\BookProject\BookProject\BookProject\bin\Debug\net8.0\BookProject.pdb
+C:\Users\user\Desktop\BookProject\BookProject\BookProject\obj\Debug\net8.0\BookProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\BookProject\BookProject\BookProject\obj\Debug\net8.0\BookProject.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\BookProject\BookProject\BookProject\obj\Debug\net8.0\BookProject.AssemblyInfo.cs
+C:\Users\user\Desktop\BookProject\BookProject\BookProject\obj\Debug\net8.0\BookProject.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\BookProject\BookProject\BookProject\obj\Debug\net8.0\BookProject.sourcelink.json
+C:\Users\user\Desktop\BookProject\BookProject\BookProject\obj\Debug\net8.0\BookProject.dll
+C:\Users\user\Desktop\BookProject\BookProject\BookProject\obj\Debug\net8.0\refint\BookProject.dll
+C:\Users\user\Desktop\BookProject\BookProject\BookProject\obj\Debug\net8.0\BookProject.pdb
+C:\Users\user\Desktop\BookProject\BookProject\BookProject\obj\Debug\net8.0\BookProject.genruntimeconfig.cache
+C:\Users\user\Desktop\BookProject\BookProject\BookProject\obj\Debug\net8.0\ref\BookProject.dll

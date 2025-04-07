@@ -1,15 +1,15 @@
-﻿using System;
+﻿using BookProject.Exceptions;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace BookProject.Models;
-
 class Library
 {
     public string Name { get; set; }
-    public Book[] Books = new Book[0];
+    public Book[] Books = [];
     public Library(string _name)
     {
         Name = _name;
@@ -20,27 +20,31 @@ class Library
         Books[^1] = newbook;
         Console.WriteLine("Successfly added");
     }
-    public void GetBookById(int id)
+    public Book GetBookById(int id)
     {
-        foreach (var c in Books)
+        foreach (Book c in Books)
         {
             if (c.Id == id)
-            {
-               Console.WriteLine(c);
-            }
-        }Console.WriteLine("bu Id-li kitab yoxdur");
+                return c;
+        }
+        throw new NotFoundException("Book is not found");
     }
     public void RemoveBook(int id)
     {
-        for (int i=0;i<Books.Length;i++)
+        for (int i = 0; i < Books.Length; i++)
         {
-            if (Books[i].Id== id)
+            if (Books[i].Id == id)
             {
-                Books[i] = Books[i + 1];
-                Array.Resize(ref Books,Books.Length - 1);
+                for (int j = i; j < Books.Length - 1; j++)
+                {
+                    Books[j] = Books[j + 1];
+                }
+                Books[Books.Length - 1] = null;
+                Array.Resize(ref Books, Books.Length - 1);
+                Console.WriteLine("Book successfuly removed");
+                return;
             }
         }
-        Console.WriteLine($"Removed book\n{Books}");
     }
     public void GetBook(string name)
     {
@@ -57,7 +61,10 @@ class Library
         foreach (var b in Books)
         {
             Console.WriteLine(b);
-
         }
+    }
+    public override string ToString()
+    {
+        return $"{Name}";
     }
 }

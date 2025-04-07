@@ -27,6 +27,6 @@ class Book : Object
     }
     public override string ToString()
     {
-        return $"Id:{Id}. Name:{Name}, Authorname:{AuthorName}, Price:{Price}";
+        return $"{Id}. Name:{Name}, Authorname:{AuthorName}, Price:{Price}";
     }
 }
